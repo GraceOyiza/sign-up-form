@@ -1,0 +1,13 @@
+#nav-section {
+  grid-template-columns: 1fr 1fr;
+  width: 300px;
+  justify-content: end;
+}
+
+#sign-in {
+  background-color: #4285f4;
+}
+
+.grid {
+  display: grid;
+}
