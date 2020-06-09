@@ -1,7 +1,17 @@
 #nav-section {
-  grid-template-columns: 1fr 1fr;
-  width: 300px;
+  grid-template-columns: 0.1fr 0.1fr;
   justify-content: end;
+  margin: 0px 40px;
+}
+
+#nav-section div{
+  width: 180px
+}
+
+#nav-section button{
+  padding: 6px 14px;
+  border: 1px solid black;
+  color: hsl(0, 0%, 95%);
 }
 
 #sign-in {
@@ -10,4 +20,8 @@
 
 .grid {
   display: grid;
+}
+
+.smaller-text{
+  font-size: smaller;
 }
