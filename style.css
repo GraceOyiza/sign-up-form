@@ -1,7 +1,10 @@
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+body {
+  background-color: #ececec;
 }
 
 #nav-section {
@@ -24,7 +27,7 @@
   background-color: #4285f4;
   border-radius: 5px;
   color: hsl(0, 0%, 95%);
-  border: 1px solid black;
+  /*border: 1px solid black;*/
 }
 
 .grid {
@@ -39,25 +42,30 @@
   width: 400px;
   margin: 0 auto;
   padding: 24px 32px;
+  background-color: white;
+}
+#recaptcha {
+  width: 100%;
+  background-color: #ececec;
 }
 
-#border-box h2{
+#border-box h2 {
   padding-bottom: 16px;
 }
 
-#border-box input{
+#border-box input {
   padding: 6px 16px;
   width: 100%;
   border-radius: 4px;
   border: 1px solid gray;
 }
 
-#border-box input:focus{
+#border-box input:focus {
   border: 1px solid #52a8ec;
   box-shadow: 0px 0px 5px 1px #aed8f8;
 }
 
-#submit-btn{
+#submit-btn {
   width: 100%;
   background-color: rgb(32, 109, 182);
   color: hsl(0, 0%, 95%);
@@ -68,19 +76,23 @@
 
 /* Generic classes */
 
-.vertical-padding-16{
+.vertical-padding-16 {
   padding: 16px 0px;
 }
 
-.mt-10{
+.mt-10 {
   margin-top: 10px;
 }
 
-.mt-5{
+.mt-5 {
   margin-top: 5px;
 }
 
-.text-center{
+.mt-15 {
+  margin-top: 35px;
+}
+
+.text-center {
   text-align: center;
 }
 
@@ -88,6 +100,10 @@
   font-size: smaller;
 }
 
-.larger-text{
+.larger-text {
   font-size: 1.01rem;
+}
+
+.m-0-auto {
+  margin: 0 auto;
 }
