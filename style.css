@@ -4,24 +4,32 @@
   margin: 0px 40px;
 }
 
-#nav-section div{
-  width: 180px
+#nav-section div {
+  width: 180px;
 }
 
-#nav-section button{
-  padding: 6px 14px;
+/*#nav-section button {
+  padding: 2px 6px;
   border: 1px solid black;
   color: hsl(0, 0%, 95%);
-}
+}*/
 
 #sign-in {
   background-color: #4285f4;
+  border-radius: 5px;
+  color: hsl(0, 0%, 95%);
+  border: 1px solid black;
 }
 
 .grid {
   display: grid;
 }
 
-.smaller-text{
+.smaller-text {
   font-size: smaller;
+}
+
+#border-box {
+  border: 1px solid green;
+  width: 50%;
 }
