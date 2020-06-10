@@ -5,7 +5,7 @@
 }
 body {
   background-color: #ececec;
-  font-family: 'lato', sans-serif;
+  font-family: "lato", sans-serif;
   font-weight: 100;
 }
 
@@ -25,7 +25,7 @@ body {
   color: hsl(0, 0%, 95%);
 }*/
 
-#icons{
+#icons {
   width: 320px;
   /* grid-template-columns: repeat(6, 1fr); */
   justify-content: space-evenly;
@@ -85,7 +85,7 @@ body {
   display: grid;
 }
 
-.flex{
+.flex {
   display: flex;
 }
 
@@ -108,6 +108,15 @@ body {
 .text-center {
   text-align: center;
 }
+.italic {
+  font-style: italic;
+  word-spacing: 2px;
+}
+
+.x-small-text {
+  font-size: 10.5px;
+  word-spacing: 2px;
+}
 
 .smaller-text {
   font-size: smaller;
@@ -121,14 +130,14 @@ body {
   margin: 0 auto;
 }
 
-.align-center{
+.align-center {
   align-items: center;
 }
 
-.montserrat{
-  font-family: 'Montserrat', sans-serif;
+.montserrat {
+  font-family: "Montserrat", sans-serif;
 }
 
-.dark-gray{
+.dark-gray {
   color: hsl(0, 0%, 30%);
 }
