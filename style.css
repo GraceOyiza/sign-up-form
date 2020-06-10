@@ -5,6 +5,8 @@
 }
 body {
   background-color: #ececec;
+  font-family: 'lato', sans-serif;
+  font-weight: 100;
 }
 
 #nav-section {
@@ -23,15 +25,18 @@ body {
   color: hsl(0, 0%, 95%);
 }*/
 
+#icons{
+  width: 320px;
+  /* grid-template-columns: repeat(6, 1fr); */
+  justify-content: space-evenly;
+  margin: 0 auto;
+}
+
 #sign-in {
   background-color: #4285f4;
   border-radius: 5px;
   color: hsl(0, 0%, 95%);
   /*border: 1px solid black;*/
-}
-
-.grid {
-  display: grid;
 }
 
 /* Border box */
@@ -76,6 +81,14 @@ body {
 
 /* Generic classes */
 
+.grid {
+  display: grid;
+}
+
+.flex{
+  display: flex;
+}
+
 .vertical-padding-16 {
   padding: 16px 0px;
 }
@@ -106,4 +119,16 @@ body {
 
 .m-0-auto {
   margin: 0 auto;
+}
+
+.align-center{
+  align-items: center;
+}
+
+.montserrat{
+  font-family: 'Montserrat', sans-serif;
+}
+
+.dark-gray{
+  color: hsl(0, 0%, 30%);
 }
