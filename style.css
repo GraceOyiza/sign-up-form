@@ -3,10 +3,31 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+@font-face{
+  font-family: "Helvetica", sans-serif;
+  src: url(/fonts/Helvetica.ttf);
+}
+
 body {
   background-color: #ececec;
-  font-family: "lato", sans-serif;
-  font-weight: 100;
+  /* font-family: "lato", sans-serif; */
+  font-family: Helvetica, sans-serif;
+}
+
+h2{
+  font-weight: lighter;s
+  color: #4c4c4c;
+}
+
+ul li{
+  display: inline;
+  padding: 0px 8px;
+}
+
+a{
+  text-decoration: none;
+  color: #0077c5;
 }
 
 #nav-section {
@@ -19,11 +40,11 @@ body {
   width: 180px;
 }
 
-/*#nav-section button {
+/* #nav-section button {
   padding: 2px 6px;
   border: 1px solid black;
   color: hsl(0, 0%, 95%);
-}*/
+} */
 
 #icons {
   width: 320px;
@@ -44,14 +65,21 @@ body {
 #border-box {
   border-radius: 3px;
   border: 1px solid hsl(0, 0%, 70%);
-  width: 400px;
+  width: 380px;
   margin: 0 auto;
-  padding: 24px 32px;
+  /* padding: 24px 32px; */
   background-color: white;
 }
+
+#border-box label{
+  font-size: 0.9rem;;
+}
+
 #recaptcha {
   width: 100%;
   background-color: #ececec;
+  padding: 24px 0;
+  color: #8d9096;
 }
 
 #border-box h2 {
@@ -70,6 +98,10 @@ body {
   box-shadow: 0px 0px 5px 1px #aed8f8;
 }
 
+form{
+  padding: 24px 32px;
+}
+
 #submit-btn {
   width: 100%;
   background-color: rgb(32, 109, 182);
@@ -77,6 +109,12 @@ body {
   padding: 16px;
   border-radius: 4px;
   border: none;
+}
+
+/* footer */
+
+footer, footer a{
+  color: #505050;
 }
 
 /* Generic classes */
@@ -113,13 +151,17 @@ body {
   word-spacing: 2px;
 }
 
-.x-small-text {
-  font-size: 10.5px;
-  word-spacing: 2px;
+.small-medium-text{
+  font-size: 0.9rem;
 }
 
 .smaller-text {
   font-size: smaller;
+}
+
+.x-small-text {
+  font-size: 10.5px;
+  word-spacing: 2px;
 }
 
 .larger-text {
@@ -139,5 +181,5 @@ body {
 }
 
 .dark-gray {
-  color: hsl(0, 0%, 30%);
+  color: #404040;
 }
