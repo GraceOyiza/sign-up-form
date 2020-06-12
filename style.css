@@ -1,0 +1,197 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "Helvetica", sans-serif;
+  src: url(/fonts/Helvetica.ttf);
+}
+
+body {
+  background-color: #ececec;
+  font-family: Helvetica, sans-serif;
+}
+
+h2 {
+  font-weight: lighter;
+  color: #4c4c4c;
+}
+
+ul li {
+  display: inline;
+  padding: 0 8px;
+}
+
+ul li:hover {
+  text-decoration: underline;
+}
+
+a {
+  text-decoration: none;
+  color: #0077c5;
+}
+
+#nav-section {
+  grid-template-columns: 0.1fr 0.1fr;
+  justify-content: end;
+  margin: 8px 32px;
+}
+
+#nav-section div {
+  width: 192px;
+}
+
+#icons {
+  width: 320px;
+  justify-content: space-evenly;
+  margin: 0 auto;
+}
+
+#sign-in {
+  background-color: #4285f4;
+  border-radius: 5px;
+  color: hsl(0, 0%, 95%);
+}
+
+#border-box {
+  border-radius: 3px;
+  border: 1px solid hsl(0, 0%, 70%);
+  width: 380px;
+  margin: 0 auto;
+  background-color: white;
+}
+
+#border-box label {
+  font-size: 0.9rem;
+}
+
+#recaptcha {
+  width: 100%;
+  background-color: #ececec;
+  padding: 24px 0;
+  color: #8d9096;
+}
+
+#border-box h2 {
+  padding-bottom: 16px;
+}
+
+#border-box input {
+  padding: 8px 16px;
+  width: 100%;
+  border-radius: 4px;
+  border: 1px solid hsl(0, 0%, 75%);
+}
+
+#border-box input:focus {
+  border: 1px solid #52a8ec;
+  box-shadow: 0 0 5px 1px #aed8f8;
+}
+
+form {
+  padding: 24px 32px;
+}
+
+#submit-btn {
+  width: 100%;
+  background-color: rgb(32, 109, 182);
+  color: hsl(0, 0%, 95%);
+  padding: 16px;
+  border-radius: 4px;
+  border: none;
+}
+
+footer {
+  padding-bottom: 30px;
+}
+
+footer,
+footer a {
+  color: #505050;
+}
+
+.grid {
+  display: grid;
+}
+
+.flex {
+  display: flex;
+}
+
+.vertical-padding-16 {
+  padding: 16px 0;
+}
+
+.mt-10 {
+  margin-top: 10px;
+}
+
+.mt-5 {
+  margin-top: 5px;
+}
+
+.mt-15 {
+  margin-top: 35px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.italic {
+  font-style: italic;
+  word-spacing: 2px;
+}
+
+.small-medium-text {
+  font-size: 0.9rem;
+}
+
+.smaller-text {
+  font-size: smaller;
+}
+
+.x-small-text {
+  font-size: 10.5px;
+  word-spacing: 2px;
+}
+
+.larger-text {
+  font-size: 1.01rem;
+}
+
+.m-0-auto {
+  margin: 0 auto;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.montserrat {
+  font-family: "Montserrat", sans-serif;
+}
+
+.dark-gray {
+  color: #404040;
+}
+
+#privacy-settings {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  padding: 11px;
+  border-radius: 5px;
+  margin-right: 50px;
+  background-color: rgb(107, 108, 114);
+  color: hsl(0, 0%, 95%);
+}
+
+.input-icon {
+  margin-top: 18px;
+  position: absolute;
+  margin-left: -30px;
+  color: lightgray;
+}

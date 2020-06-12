@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Montserrat:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <nav id="nav-section" class="grid">
+      <div class="nav-text">
+        <span class="smaller-text">Already have an Intuit account?</span> <br />
+        <span class="smaller-text"
+          ><a href="#">I forgot my User ID or Password</a></span
+        >
+      </div>
+      <button id="sign-in"><i class="fa fa-lock"></i> Sign In</button>
+    </nav>
+
+    <main>
+      <div class="text-center">
+        <img
+          src="https://cdn.freebiesupply.com/images/large/2x/intuit-logo-transparent.png"
+          alt="intuit logo"
+          width="130"
+          class="m-0-auto"
+        />
+        <div id="icons" class="flex vertical-padding-16">
+          <img
+            src="https://lh3.googleusercontent.com/kAoKkNJy81qdxeSexsfsfH6DEz114px1qx9zg0Hj3RoonLXxXRBbEp0xIZVVElgihQ"
+            alt="mint-logo"
+            width="25"
+          />
+          <p class="montserrat">mint</p>
+          <img
+            src="https://www.forecast.app/hubfs/quickbooks.svg"
+            alt="mint-logo"
+            width="25"
+          />
+          <p class="montserrat">quickbooks</p>
+          <img
+            src="http://getdrawings.com/free-icon/quicken-icon-73.png"
+            alt="mint-logo"
+            width="25"
+          />
+          <p class="montserrat">turbotax</p>
+        </div>
+      </div>
+      <div id="border-box">
+        <form class="dark-gray">
+          <h2 class="text-center dark-gray">Create an Intuit account</h2>
+          <p class="text-center small-medium-text">
+            One account for everything Intuit, including Mint.
+          </p>
+          <p class="text-center smaller-text"><a href="">Learn more</a></p>
+          <br />
+          <div class="vertical-padding-16">
+            <label for="email">Email address</label><br />
+            <input class="mt-10" type="email" id="email" name="email" /><br />
+          </div>
+          <div class="vertical-padding-16">
+            <label for="phone">Phone (recommended)</label><br />
+            <input class="mt-10" type="tel" id="phone" name="phone" /><br />
+            <p class="mt-5 x-small-text">
+              Standard call, messaging or data rates may apply
+            </p>
+            <br />
+          </div>
+          <div class="vertical-padding-16">
+            <label for="password">Password</label><br />
+            <input
+              class="mt-10"
+              type="password"
+              id="password"
+              name="password"
+            />
+            <i class="fa fa-unlock input-icon"></i>
+          </div>
+          <button type="submit" id="submit-btn" class="larger-text">
+            <i class="fa fa-lock"></i> Create Account
+          </button>
+          <br />
+          <p class="smaller-text mt-15 text-center italic">
+            By clicking Create account, you agree to our <br />
+            <a href="#">Terms</a> and have read and acknowledge our
+            <a href="#">Privacy Statement</a>.
+          </p>
+          <br />
+        </form>
+        <p class="mt-10 text-center x-small-text" id="recaptcha">
+          Invisible reCAPTCHA by Google <a href="#">Privacy Policy</a> and
+          <a href="#">Terms of Use</a>.
+        </p>
+      </div>
+    </main>
+    <footer>
+      <div>
+        <ul class="text-center smaller-text mt-15">
+          <li><a href="#">Legal</a></li>
+          <li><a href="#">Privacy</a></li>
+          <li><a href="#">Security</a></li>
+        </ul>
+      </div>
+      <p class="text-center smaller-text">
+        © 2020 Intuit, Inc. All rights reserved. Intuit, QuickBooks, QB,
+        TurboTax, ProConnect and Mint are registered trademarks of Intuit Inc.
+      </p>
+      <p class="text-center smaller-text">
+        Terms and conditions, features, support, pricing, and service options
+        subject to change without notice.
+      </p>
+    </footer>
+    <button class="small-medium-texts" id="privacy-settings">
+      Privacy Settings
+    </button>
+  </body>
+</html>
