@@ -26,7 +26,7 @@
     </nav>
 
     <main>
-      <div class="text-center mt-15">
+      <div class="text-center">
         <img
           src="https://cdn.freebiesupply.com/images/large/2x/intuit-logo-transparent.png"
           alt="intuit logo"
@@ -63,22 +63,28 @@
           <p class="text-center smaller-text"><a href="">Learn more</a></p>
           <br />
           <div class="vertical-padding-16">
-            <label for="">Email address</label>
-            <input class="mt-10" type="text" id="" name="" />
+            <label for="email">Email address</label><br />
+            <input class="mt-10" type="email" id="email" name="email" /><br />
           </div>
           <div class="vertical-padding-16">
-            <label for="">Phone (recommended)</label>
-            <input class="mt-10" type="text" id="" name="" />
+            <label for="phone">Phone (recommended)</label><br />
+            <input class="mt-10" type="tel" id="phone" name="phone" /><br />
             <p class="mt-5 x-small-text">
               Standard call, messaging or data rates may apply
             </p>
+            <br />
           </div>
           <div class="vertical-padding-16">
-            <label for="">Password</label>
-            <input class="mt-10" type="text" id="" name="" />
+            <label for="password">Password</label><br />
+            <input
+              class="mt-10"
+              type="password"
+              id="password"
+              name="password"
+            />
             <i class="fa fa-unlock input-icon"></i>
           </div>
-          <button id="submit-btn" class="larger-text">
+          <button type="submit" id="submit-btn" class="larger-text">
             <i class="fa fa-lock"></i> Create Account
           </button>
           <br />
