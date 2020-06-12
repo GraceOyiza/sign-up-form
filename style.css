@@ -11,7 +11,6 @@
 
 body {
   background-color: #ececec;
-  /* font-family: "lato", sans-serif; */
   font-family: Helvetica, sans-serif;
 }
 
@@ -35,22 +34,15 @@ a {
 #nav-section {
   grid-template-columns: 0.1fr 0.1fr;
   justify-content: end;
-  margin: 0px 40px;
+  margin: 8px 32px;
 }
 
 #nav-section div {
-  width: 210px;
+  width: 192px;
 }
-
-/*#nav-section button {
-  padding: 2px 6px;
-  border: 1px solid black;
-  color: hsl(0, 0%, 95%);
-}*/
 
 #icons {
   width: 320px;
-  /* grid-template-columns: repeat(6, 1fr); */
   justify-content: space-evenly;
   margin: 0 auto;
 }
@@ -59,17 +51,13 @@ a {
   background-color: #4285f4;
   border-radius: 5px;
   color: hsl(0, 0%, 95%);
-  /*border: 1px solid black;*/
 }
-
-/* Border box */
 
 #border-box {
   border-radius: 3px;
   border: 1px solid hsl(0, 0%, 70%);
   width: 380px;
   margin: 0 auto;
-  /* padding: 24px 32px; */
   background-color: white;
 }
 
@@ -89,10 +77,10 @@ a {
 }
 
 #border-box input {
-  padding: 6px 16px;
+  padding: 8px 16px;
   width: 100%;
   border-radius: 4px;
-  border: 1px solid gray;
+  border: 1px solid hsl(0, 0%, 75%);
 }
 
 #border-box input:focus {
@@ -113,17 +101,14 @@ form {
   border: none;
 }
 
-/* footer */
-
 footer {
   padding-bottom: 30px;
 }
+
 footer,
 footer a {
   color: #505050;
 }
-
-/* Generic classes */
 
 .grid {
   display: grid;
@@ -152,6 +137,7 @@ footer a {
 .text-center {
   text-align: center;
 }
+
 .italic {
   font-style: italic;
   word-spacing: 2px;
@@ -202,7 +188,8 @@ footer a {
 }
 
 .input-icon {
-  margin-top: 15px;
+  margin-top: 18px;
   position: absolute;
   margin-left: -30px;
+  color: lightgray;
 }
