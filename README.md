@@ -1,5 +1,5 @@
 # sign-up-form
-The focus of the project is to clone a mint sign-up-page. This gives us better insight on how to create forms.
+The focus of the project is to clone a mint sign-up-page. This gives us better insight into how to create forms.
 ![Signup-form](https://user-images.githubusercontent.com/60645009/84479899-95b01d00-ac8b-11ea-844e-2c4648c27c98.png)
 ## Live Demo
 [Live Demo Site](https://relaxed-hoover-8539b1.netlify.app)
