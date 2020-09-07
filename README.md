@@ -21,7 +21,7 @@ The focus of the project is to clone a mint sign-up-page. This gives us better i
  ##### Grace Popoola 
  - Github: [@githubhandle](https://github.com/GraceOyiza)
  - Twitter: [@twitterhandle](https://twitter.com/@_PopsonGrace)
- - LinkedIn: [@LinkedInhandle](https://github.com/El-Potato-Slayer/Embedding-images-and-video/blob/master/www.linkedin.com/in/chad-van-wyk-4228b21a6)
+ - LinkedIn: [@LinkedInhandle](https://www.linkedin.com/in/grace-popoola)
  ### Contributing
  Contributions, issues and feature requests are welcome!
  ### Show your support
